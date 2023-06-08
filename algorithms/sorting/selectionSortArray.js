@@ -1,3 +1,4 @@
+/** BigO(n*n) */
 const sortArrayInAscending = (inputArray, sortedArray) => {
     if(inputArray.length === 0) {
         return sortedArray

@@ -1,3 +1,5 @@
+
+/** BigO(nlogn) */
 const mergeSort = (inputArray) => {
     if(inputArray.length === 0 || inputArray.length === 1) {
         return inputArray
@@ -47,5 +49,7 @@ const divideAndConquer = (inputArray) => {
     }
 }
 
-let result = mergeSort([100,2,-1,-4,71,10,4,1])
-console.log(result)
+// let result = mergeSort([100,2,-1,-4,71,10,4,1])
+// console.log(result)
+
+module.exports = {mergeSort}
